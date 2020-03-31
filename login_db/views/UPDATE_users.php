@@ -38,7 +38,6 @@
 					echo "<td><input type=text name=type value='".$row['type']."'></td>";
 					echo "<td><input type=text name=email value='".$row['email']."'></td>";
 					echo "<td><input type=submit value=UPDATE></td>";
-					//echo "<td><input type=submit value=DELETE></td>";  //<a href="delete_users.php"> Remove Users</a>
 					echo "</form></tr>";
 			}
 			?>
