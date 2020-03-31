@@ -19,7 +19,7 @@
 		
 		<table border=1>
 			<tr>
-				<td>ID</td>
+				
 				<td>USERNAME</td>
 				<td>PASSWORD</td>
 				<td>TYPE</td>
@@ -32,7 +32,7 @@
 			{
 
 					echo "<tr><form action=../php/update.php method=post>";
-					echo "<td><input type=number_format name=id value='".$row['ID']."'></td>";
+					echo "<td><input type=hidden name=ID value='".$row['ID']."'></td>";
 					echo "<td><input type=text name=username value='".$row['username']."'></td>";
 					echo "<td><input type=number_format name=password value='".$row['password']."'></td>";
 					echo "<td><input type=text name=type value='".$row['type']."'></td>";
