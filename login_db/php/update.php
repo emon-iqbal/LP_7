@@ -8,7 +8,7 @@
 		}
 		*/
  
-        $sql = " UPDATE users SET ID='$_POST[id]', USERNAME = '$_POST[username]', PASSWORD = '$_POST[password]', TYPE='$_POST[type]', EMAiL='$_POST[email]' WHERE ID='$_POST[id]'";
+        $sql = " UPDATE users SET USERNAME = '$_POST[username]', PASSWORD = '$_POST[password]', TYPE='$_POST[type]', EMAiL='$_POST[email]' WHERE ID='$_POST[ID]'";
         
 		if(mysqli_query($con, $sql))
 		{
