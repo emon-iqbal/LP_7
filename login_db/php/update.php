@@ -22,7 +22,5 @@
 		}
 		
 		header("refresh:4;	url=../views/home.php");
-	
-	
-	
+		
 ?>
