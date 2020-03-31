@@ -1,7 +1,8 @@
 <?php
 
 
-	if(isset($_POST['submit'])){
+	if(isset($_POST['submit']))
+	{
 		$username = $_POST['username'];
 		$password = $_POST['password'];
 		$type = $_POST['type'];
@@ -26,8 +27,10 @@
 		}else{
 			echo "!! Error !!";
 		}
-		header("refresh:4;	url=../views/home.php");
+		header("refresh:4;  url=../views/home.php");
 	}
 	
+
+?>
 
 
