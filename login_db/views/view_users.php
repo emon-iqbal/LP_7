@@ -9,6 +9,7 @@
 		<a href="home.php"> Back</a> | 
 		<a href="logout.php"> logout</a> 
 		<br>
+		<br>
 		
 <?php
 	$con = mysqli_connect('127.0.0.1', 'root', '', 'webtech');
